@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<CrashGUID>_0000</CrashGUID>
+<ProcessId>12240</ProcessId>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<SecondsSinceStart>0</SecondsSinceStart>
+<GameName></GameName>
+<ExecutableName></ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName></PlatformName>
+<PlatformNameIni></PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.20.2-0+++UE4+Release-4.20</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale></AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.20-CL-0</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<UserName></UserName>
+<BaseDir></BaseDir>
+<RootDir></RootDir>
+<MachineId></MachineId>
+<LoginId></LoginId>
+<EpicAccountId></EpicAccountId>
+<CallStack></CallStack>
+<PCallStack>
+UE4Editor-Core  0x00000000c2890000 + 2d7b55  
+UE4Editor-Core  0x00000000c2890000 + 2d77d4  
+UE4Editor-Core  0x00000000c2890000 + 2d7147  
+UE4Editor-Core  0x00000000c2890000 + 2d8649  
+UE4Editor-Core  0x00000000c2890000 + 2e9485  
+UE4Editor-Core  0x00000000c2890000 + 151d30  
+UE4Editor       0x00000000bd220000 + 160e1   
+UE4Editor       0x00000000bd220000 + 1a18d   
+UE4Editor       0x00000000bd220000 + 158a8   
+UE4Editor       0x00000000bd220000 + 15afa   
+UE4Editor       0x00000000bd220000 + 23c3c   
+UE4Editor       0x00000000bd220000 + 258fa   
+KERNEL32        0x0000000008e00000 + 13034   
+ntdll           0x000000000ae60000 + 71471   
+</PCallStack>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<ErrorMessage>Fatal error: [File:C:\Users\Vlad\Documents\GitHub\g4g18\Engine\Source\Runtime\Core\Private\Modules\ModuleManager.cpp] [Line: 999] 
+Unable to read module manifest from &apos;../../../Engine/Binaries/Win64/UE4Editor.modules&apos;. Module manifests are generated at build time, and must be present to locate modules at runtime.
+</ErrorMessage>
+<CrashDumpMode>0</CrashDumpMode>
+<CrashReporterMessage></CrashReporterMessage>
+<Misc.NumberOfCores>0</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>0</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor></Misc.CPUVendor>
+<Misc.CPUBrand></Misc.CPUBrand>
+<Misc.PrimaryGPUBrand></Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor></Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<GameStateName></GameStateName>
+<MemoryStats.TotalPhysical>16999284736</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>9830866944</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>140732771844096</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>55562240</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>63795200</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>25706496</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>34492416</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+</FGenericCrashContext>
