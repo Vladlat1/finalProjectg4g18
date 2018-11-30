@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\Mac\DsymExporter\DsymExporter.Target.cs" />
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\Mac\DsymExporter\DsymExporter.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{F7FA3430-952A-446D-93EF-626F165FB172}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\Mac\DsymExporter\Private\DsymExporterApp.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Private\Mac">
+			<UniqueIdentifier>{6D029606-0311-442A-86A7-9B6EEF1E2E14}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\Mac\DsymExporter\Private\Mac\DsymExporterMainMac.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<Filter Include="Public">
+			<UniqueIdentifier>{3DAE7CA0-163B-45DD-B4BE-6F5575BF2984}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\Mac\DsymExporter\Public\DsymExporterApp.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

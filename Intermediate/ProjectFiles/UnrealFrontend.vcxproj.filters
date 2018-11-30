@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Target.cs" />
+		<Filter Include="Config">
+			<UniqueIdentifier>{20034B4A-3CD3-478D-9554-56E320F9BC0C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Programs\UnrealFrontend\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{0185C230-8B4E-46AA-AC57-F7ABD284536A}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<Filter Include="Private\Commands">
+			<UniqueIdentifier>{60A1B3A7-656F-4AAC-974B-DA98150FB79B}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.cpp">
+			<Filter>Private\Commands</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.h">
+			<Filter>Private\Commands</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.cpp">
+			<Filter>Private\Commands</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.h">
+			<Filter>Private\Commands</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.cpp">
+			<Filter>Private\Commands</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.h">
+			<Filter>Private\Commands</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.cpp">
+			<Filter>Private\Commands</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.h">
+			<Filter>Private\Commands</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.cpp">
+			<Filter>Private\Commands</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.h">
+			<Filter>Private\Commands</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.cpp">
+			<Filter>Private\Commands</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.h">
+			<Filter>Private\Commands</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.cpp">
+			<Filter>Private\Commands</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.h">
+			<Filter>Private\Commands</Filter>
+		</ClInclude >
+		<Filter Include="Private\Linux">
+			<UniqueIdentifier>{6D5D9E0A-9CB5-463C-8D92-09943864DE74}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Linux\LinuxUnrealFrontendMain.cpp">
+			<Filter>Private\Linux</Filter>
+		</ClCompile >
+		<Filter Include="Private\Mac">
+			<UniqueIdentifier>{0B387F74-92D8-446F-AB07-FF32BB10C387}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Mac\MacUnrealFrontendMain.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<Filter Include="Private\Windows">
+			<UniqueIdentifier>{B0ED5772-A918-470D-BA3A-BE92353ED7E2}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Private\Windows\WindowsUnrealFrontendMain.cpp">
+			<Filter>Private\Windows</Filter>
+		</ClCompile >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{62820026-1074-4D02-9706-06CBB1F84A53}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resources\Windows">
+			<UniqueIdentifier>{CA035E1C-869E-477F-8BB2-F99DA67CE0BD}</UniqueIdentifier>
+		</Filter>
+		<Manifest Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win32.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win64.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend-Win32.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend-Win64.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend.ico">
+			<Filter>Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend.rc">
+			<Filter>Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

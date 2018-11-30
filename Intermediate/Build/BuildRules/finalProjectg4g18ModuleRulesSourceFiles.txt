@@ -1,0 +1,3 @@
+C:\Users\Vlad\Documents\School\g4g\finalProjectg4g18\Source\finalProjectg4g18\finalProjectg4g18.Build.cs
+C:\Users\Vlad\Documents\School\g4g\finalProjectg4g18\Source\finalProjectg4g18.Target.cs
+C:\Users\Vlad\Documents\School\g4g\finalProjectg4g18\Source\finalProjectg4g18Editor.Target.cs

@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
+		<Filter Include="Config">
+			<UniqueIdentifier>{07C4A266-69B1-45BF-9C4D-AACBB36E4420}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{DAB74BDB-41D5-40FD-A7A9-09624A204975}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Private\ToolModes">
+			<UniqueIdentifier>{B90471C6-EA7A-45D2-8881-6610A36B2006}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\AutomationMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PackageChunksMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\VerifyChunksMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<Filter Include="Public">
+			<UniqueIdentifier>{32DA10EB-35C7-4F79-91C0-7E9BAD37A537}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<Filter Include="Public\Interfaces">
+			<UniqueIdentifier>{B059C2F4-E546-4680-A210-25123239E27F}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h">
+			<Filter>Public\Interfaces</Filter>
+		</ClInclude >
+		<Filter Include="Public\ToolModes">
+			<UniqueIdentifier>{A48DD8B4-8588-4993-99A2-1268BE55A064}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\AutomationMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PackageChunksMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\VerifyChunksMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{11B78119-5896-4A8E-8B36-24C789D6F758}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resources\Windows">
+			<UniqueIdentifier>{4B299B36-6AE8-4BD6-BB3A-F7CE23E3975F}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Resources\Windows\BuildPatchTool.ico">
+			<Filter>Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\BuildPatchTool\Resources\Windows\Resource.rc">
+			<Filter>Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

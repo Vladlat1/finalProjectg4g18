@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{C64A0CFD-422D-5098-F03C-5ABF1C4CB60B}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "finalProjectg4g18",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}

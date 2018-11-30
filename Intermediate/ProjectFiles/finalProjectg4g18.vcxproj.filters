@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\finalProjectg4g18.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{6FD0F71E-C661-495C-A60B-85868DA87D4E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\finalProjectg4g18.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\finalProjectg4g18Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{7E9EAD2A-8180-4B55-8911-0665CD809DF6}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\finalProjectg4g18">
+			<UniqueIdentifier>{60B65612-8C6A-43AF-8F24-C2681C7B020A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\finalProjectg4g18\finalProjectg4g18.Build.cs">
+			<Filter>Source\finalProjectg4g18</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\finalProjectg4g18\finalProjectg4g18.cpp">
+			<Filter>Source\finalProjectg4g18</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\finalProjectg4g18\finalProjectg4g18.h">
+			<Filter>Source\finalProjectg4g18</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\finalProjectg4g18\finalProjectg4g18GameModeBase.cpp">
+			<Filter>Source\finalProjectg4g18</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\finalProjectg4g18\finalProjectg4g18GameModeBase.h">
+			<Filter>Source\finalProjectg4g18</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

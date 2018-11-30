@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Target.cs" />
+		<Filter Include="Config">
+			<UniqueIdentifier>{4B70FC87-506E-4CF3-8DC2-192FC601D014}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Programs\ShaderCompileWorker\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Config\Mac">
+			<UniqueIdentifier>{B86A131B-AF71-4E85-A9B6-C38500547670}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Programs\ShaderCompileWorker\Config\Mac\MacEngine.ini">
+			<Filter>Config\Mac</Filter>
+		</None >
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\ShaderCompileWorker\ShaderCompileWorker.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{5CE60C7A-AB56-4067-909B-5CFBCF179714}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\ShaderCompileWorker\Private\ShaderCompileWorker.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\ShaderCompileWorker\Private\XGEControlWorker.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{8B3C6EEE-D9B5-4055-80BA-21F66CF9A6B9}</UniqueIdentifier>
+		</Filter>
+		<Manifest Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win32.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\ShaderCompileWorker\Resources\Debug-Win64.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<ClInclude Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\ShaderCompileWorker\Resources\resource.h">
+			<Filter>Resources</Filter>
+		</ClInclude >
+		<ResourceCompile Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\ShaderCompileWorker\Resources\Resource.rc">
+			<Filter>Resources</Filter>
+		</ResourceCompile >
+		<None Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\ShaderCompileWorker\Resources\ShaderCompileWorker.ico">
+			<Filter>Resources</Filter>
+		</None >
+		<Manifest Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\ShaderCompileWorker\Resources\Win32.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<Manifest Include="..\..\..\..\..\GitHub\g4g18\Engine\Source\Programs\ShaderCompileWorker\Resources\Win64.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+	</ItemGroup>
+</Project>
